@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #e0c521;
+}
+
+.btn {
+  padding: 1rem 0.8rem;
+  font-size: 20px;
+  text-align: center;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  width: 120px;
+  box-shadow: 1px -3px 52px -5px rgba(0, 0, 0, 0.77);
+  cursor: pointer;
+  transition: all 4s ease;
+}
+
+/* Add button */
+.btn.add {
+  background-color: var(--primary-color);
+}
+
+.btn.add:hover {
+  background-attachment: #cab320;
+}
+
+.btn.add:active {
+  background-attachment: #ad9a1c;
+}
+
+/* Remove button */
+.btn.remove {
+  background-color: tomato;
+}
+
+.btn.remove:hover {
+  background-attachment: rgb(209, 83, 61);
+}
+
+.btn.remove:active {
+  background-attachment: rgb(185, 73, 54);
+}
+
+/* Checkout button */
+.btn.checkout {
+  background-color: #47bb77c6;
+  width: 150px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.btn.checkout:hover {
+  background-attachment: #47bb78;
+}
+
+.btn.checkout:active {
+  background-attachment: rgb(30, 93, 41);
+}
+
+.btn.disabled {
+  opacity: 0.5;
+}
