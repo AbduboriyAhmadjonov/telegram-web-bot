@@ -44,8 +44,10 @@ const App = () => {
   };
 
   const onCheckout = () => {
-    telegram.BottomButton.text = 'Sotib olish :)';
-    telegram.BottomButton.show();
+    telegram.MainButton.setText('Sotib olish :)');
+    telegram.MainButton.show();
+
+    console.log('Button was clicked');
   };
 
   const onSendData = useCallback(() => {
