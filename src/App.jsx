@@ -54,7 +54,7 @@ const App = () => {
     const queryID = telegram.initDataUnsafe?.query_id;
 
     if (queryID) {
-      fetch('https://vercel.com/abduboriys-projects/telegram-web-bot/deployments/web-data', {
+      fetch('https://telegram-web-bot-by-abduboriy-5c856bf5ed3c.herokuapp.com/web-data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
