@@ -66,7 +66,7 @@ const App = () => {
         }),
       });
     } else {
-      telegram.sendData(JSON.stringify(cartItems));
+      telegram.sendData(JSON.stringify({ product: cartItems, queryID: queryID }));
     }
   }, [cartItems]);
 
